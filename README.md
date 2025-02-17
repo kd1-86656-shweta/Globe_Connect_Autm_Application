@@ -293,6 +293,7 @@ Fig. Admin Table
 
 4.2 ER DIAGRAM
 
+
  
  
 
@@ -319,6 +320,7 @@ a. User View
 
  
 Fig. Login Page
+ 
  
 Fig. Register Page
  
