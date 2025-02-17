@@ -1,0 +1,157 @@
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #131313;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #363535;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.topMenuHolder {
+    height: 10vh;
+}
+
+.addPostMainHolder {
+    padding: 0 0 0 0;
+    height: 50vh;
+    width: 44vw;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0e1113;
+    border: 1px solid #363535;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addPostMainHolder textarea {
+    background-color: transparent;
+    height: 50vh;
+    width: 42.5vw;
+    color: #fff;
+    border: none;
+    outline: none;
+    /* padding: 2vh 10vw; */
+    resize: none;
+}
+
+/* Upload icons holder styles */
+.uploadIconsHolder {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 5vh;
+    width: 100%;
+    padding-left: 5vw;
+}
+
+.uploadIconsHolder label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.85rem;
+}
+
+.uploadIcon {
+    width: 30px;
+    height: 30px;
+    color: #999;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.uploadIconsHolder label:hover .uploadIcon {
+    color: #115bca;
+    transform: scale(1.1);
+}
+
+.uploadIconsHolder label:hover p {
+    color: #115bca;
+}
+
+/* Attachments preview styles */
+.attachmentsPreview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1.5vh;
+    padding-left: 6vw;
+    width: 100%;
+}
+
+.attachmentItem {
+    background-color: #131313;
+    border: 1px solid #363535;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.85rem;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.attachmentItem img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+/* Post button styles */
+.postButtonHolder {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 2vh 0 0 0;
+    padding: 0 2vw 0 0;
+}
+
+.postButtonHolder button {
+    background-color: #115bca;
+    color: #fff;
+    border: none;
+    padding: 1.25vh 3vw;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.postButtonHolder button:hover {
+    background-color: #0e77e8;
+}
+
+/* Consistency for top menu */
+.topMenuHolder {
+    height: 10vh;
+}
+
+.addPostFlexHolder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select
+{
+    color:#0e1113;
+}
+select option
+{
+    color: #0e1113;
+}

@@ -1,0 +1,68 @@
+.registerFormHolder {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0d0d0d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://support.discord.com/hc/theming_assets/01HZPN9XSQTZNQ61ZY6FH47BS1');
+    background-size: contain;
+}
+
+.registerInputHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registerFormHolder h2 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 1CB0F6 */
+.registerInputHolder input {
+    padding: 2vh 8vw 2vh 1vw;
+    border: none;
+    background-color: #131313;
+    font-size: 14px;
+    /* border: 1px solid #E5E5E5; */
+    outline: none;
+    margin: 1vh 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.registerButtonHolder {
+    margin: 2vh 0 0 0;
+}
+
+/* 1CB0F6 */
+.registerButtonHolder button {
+    width: 20vw;
+    padding: 1.75vh 0;
+    background-color: #0d0d0d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+.Toastify__toast--warn {
+    background-color: #ff9800 !important;
+    /* Warning background color */
+    color: #000 !important;
+    /* Text color */
+}
+
+.Toastify__toast--error {
+    background-color: #f44336 !important;
+    /* Error background color */
+    color: #ffffff !important;
+    /* Text color */
+}

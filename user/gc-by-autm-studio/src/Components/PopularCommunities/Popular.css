@@ -1,0 +1,51 @@
+.popularHolder
+{
+    /* position:fixed; */
+    background-color: transparent;
+    border: 1px solid #363535;
+    width: 20vw;
+    margin: 2vh 0 0 1vw;
+    padding: 2vh 2vw;
+    border-radius: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 12vh; /* Distance from the top of the viewport */
+    align-self: flex-start; /* Ensures the sticky element aligns properly */
+}
+.communitiesNameHolder
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.communityItem
+{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.communitiesNameHolder a
+{
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1vh 0 1vh 0vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.communitiesNameHolder a:hover
+{
+    background-color: transparent;
+}
+.communitiesNameHolder img
+{
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    border: 1px solid #cccc;
+    border-radius: 50%;
+}
+

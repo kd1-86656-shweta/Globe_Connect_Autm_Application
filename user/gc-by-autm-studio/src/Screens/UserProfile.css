@@ -1,0 +1,186 @@
+body {
+    background-color: #0e1113;
+}
+
+.profileHolder {
+    display: flex;
+    justify-content: left;
+    padding: 0 0 5vh 5vw;
+    align-items: center;
+    gap: 2vw;
+}
+
+.profileImageHolder {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileImageHolder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileMainHolder {
+   padding: 15vh 0 15vh 0;
+   background-color: #0e1113;
+}
+
+/* .userNameAndDescHolder {
+    display: flex; 
+    flex-direction: column;
+} */
+
+.userNameAndDescHolder h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #dbdbdb;
+}
+
+.userNameAndDescHolder p {
+    color: #dbdbdb;
+}
+
+h2 {
+    color: #dbdbdb;
+}
+
+.postsHolder p {
+    font-size: 16px;
+    color: #dbdbdb;
+}
+
+.postsHolder {
+    display: flex;
+    justify-content: left;
+    gap: 1vw;
+    margin: 0 0 0 5vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recentPosts {
+    width: 33vw;
+    height: 100%;
+    padding: 2vh 2vw 3vh 2vw;
+    border: 1px solid #363535;
+    border-radius: 15px;
+}
+
+.statsHolder {
+    display: flex;
+    align-items: left;
+    gap: 3vw;
+}
+
+/* .userInfoHolder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.userInfoHolder button {
+    background-color: #115bca;
+    color: #fff;
+    border: none;
+    padding: 1.25vh 3vw;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 0 5vh 5vw;
+    transition: background-color 0.3s;
+}
+
+.userInfoHolder button:hover {
+    background-color: #0e77e8;
+}
+
+/* New styles for profile edit form */
+.profileEditOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.profileEditContainer {
+    background: #0e1113;
+    padding: 3vh 3vw;
+    border-radius: 1vw;
+    width: 40vw;
+    box-shadow: 0 0.4vw 0.6vw rgba(0, 0, 0, 0.1);
+}
+
+.profileEditContainer h3 {
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 18px;
+    color: #dbdbdb;
+}
+
+.formField {
+    margin-bottom: 2vh;
+}
+
+.formField label {
+    display: block;
+    margin-bottom: 1vh;
+    font-size: 14px;
+    color: #dbdbdb;
+}
+
+.formField input {
+    width: 100%;
+    padding: 1.5vh 1vw;
+    border: 1px solid #363535;
+    border-radius: 0.5vw;
+    font-size: 14px;
+    color: #dbdbdb;
+    outline: none;
+    background-color: transparent;
+}
+
+.formField input[type="file"] {
+    padding: 0.8vh 1vw;
+}
+
+.formButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.formButtons button {
+    flex: 1;
+    padding: 1.5vh 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 0.8vw;
+    cursor: pointer;
+}
+
+.formButtons button:first-child {
+    background-color: #115bcadb;
+    color: white;
+}
+
+.formButtons button:first-child:hover {
+    background-color: #3278e0;
+}
+
+.formButtons button:last-child {
+    background-color: #d93900;
+    color: white;
+}
+
+.formButtons button:last-child:hover {
+    background-color: #eb541d;
+}

@@ -1,0 +1,100 @@
+/* .navHolder
+{
+    background-color: #131313;
+} */
+.navBar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 3vw;
+    align-items: center;
+    position: fixed;
+    width:95vw;
+    margin-top: 2vh;
+    margin: 0 0 0 0vw;
+    /* border-bottom: 1px solid #363535; */
+    border-radius: 0 0 20px 20px;
+    background-color: #0e1113;
+    border: 1px solid #363535;
+    z-index: 100000;
+}
+.navBar button img
+{
+   width: 4vh;
+   margin: 0 0.5vw 0 0;
+}
+.filterHolder
+{
+    display: flex; 
+    gap: 1vw;
+    width: 20vw;
+    background-color: #0e1113;
+    border: 1px solid #363535;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 4vh 0 0 1vw;
+}
+.filterHolder button img
+{
+   width: 4vh;
+}
+.filterHolder button
+{
+    background-color: transparent;
+    color: #fff;
+    /* border: 1px solid #363535; */
+    border: none;
+    padding: 2vh 1.5vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-align: left;
+    gap:1vw;
+}
+.filterHolder button:hover
+{
+    background-color: #363535;
+}
+.buttonsHolder  
+{
+    display: flex; 
+    gap: 1vw;
+    border-radius: 10px;
+    overflow: hidden;
+    /* position: fixed; */
+    margin: 0vh 0 0 0;
+}
+.buttonsHolder button
+{
+    background-color: #d93900;
+    color: #fff;
+    border: 1px solid #363535;
+    border: none;
+    padding: 0.5vh 1.5vw;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.searchBarHolder input
+{
+    padding: 2vh 1vw 2vh 2vw;
+    background-color: #363535;
+    outline: none;
+    padding: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 20vw;
+}

@@ -1,0 +1,123 @@
+.mainCommunityExplorer {
+    background-color: #0e1113;
+    border: 0.2vw solid #363535;
+    width: 20vw;
+    margin: 4vh 0 0 1vw;
+    padding: 2vh 2vw;
+    border-radius: 1vw;
+}
+
+.exploreCommunityButtonHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.exploreCommunityButtonHolder button {
+    padding: 2vh 2vw;
+    border-radius: 1.5vw;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #115bca;
+}
+
+.communityFormOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.communityFormContainer {
+    background: #0e1113;
+    padding: 3vh 3vw;
+    border-radius: 1vw;
+    width: 40vw;
+    box-shadow: 0 0.4vw 0.6vw rgba(0, 0, 0, 0.1);
+}
+
+.communityFormContainer h3 {
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 18px;
+}
+
+.formField {
+    margin-bottom: 2vh;
+}
+
+.formField label {
+    display: block;
+    margin-bottom: 1vh;
+    font-size: 14px;
+}
+
+.formField input,
+.formField select,
+.formField textarea {
+    width: 100%;
+    padding: 1.5vh 1vw;
+    border: 1px solid #363535;
+    border-radius: 0.5vw;
+    font-size: 14px;
+    color: #dbdbdb;
+    outline: none;
+    background-color: transparent;
+}
+
+.formField textarea {
+    resize: none;
+    background-color: transparent;
+}
+
+.formButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.formButtons button {
+    flex: 1;
+    padding: 1.5vh 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 0.8vw;
+    cursor: pointer;
+}
+
+.formButtons button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.formButtons button:first-child:hover {
+    background-color: #218838;
+}
+
+.formButtons button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.formButtons button:last-child:hover {
+    background-color: #c82333;
+}
+.formField select {
+    width: 100%;
+    padding: 1.5vh 1vw;
+    border: 1px solid #363535;
+    border-radius: 0.5vw;
+    font-size: 14px;
+    color: #dbdbdb;
+    outline: none;
+    background-color: #0e1113; /* Set the select box color to match the form's background */
+}
