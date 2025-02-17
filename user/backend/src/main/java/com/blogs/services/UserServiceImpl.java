@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,15 +51,16 @@ public class UserServiceImpl implements UserService {
 /*=================== GET ALL USERS ====================*/
 	
 	@Override
-	public List<User> getAllUsers() {
-		
-		List<User> usersList = userDao.findAll();
-		
-		for (User user : usersList) {
-			System.out.println(user.toString());
-		}
-		
-		return usersList;
+	public List<UserResponseDto> getAllUsers() {
+	    // Fetch all users from the database
+	    List<User> userList = userDao.findAll();
+	    
+	    // Convert List<User> to List<UserResponseDto> using stream and map
+	    List<UserResponseDto> userResponseList = userList.stream()
+	        .map(user -> mapper.map(user, UserResponseDto.class))  // Fixed: use 'user' instead of 'User'
+	        .collect(Collectors.toList());
+	    
+	    return userResponseList;
 	}
 
 /*=================== FIND USER BY USER_NAME====================*/

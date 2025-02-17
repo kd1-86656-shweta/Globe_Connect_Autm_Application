@@ -10,7 +10,7 @@ public interface UserService {
 
     ApiResponse addNewUser(AddUserDto user, MultipartFile profileImage);
 
-    List<User> getAllUsers();
+    List<UserResponseDto> getAllUsers();
     
     User findUserByUsername(String userName);
 
