@@ -1,0 +1,87 @@
+/* White background and clean layout */
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .signupFormHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .glassEffect {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .signupInputHolder input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .signupInputHolder input[type='text'],
+  .signupInputHolder input[type='email'],
+  .signupInputHolder input[type='password'] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+  }
+  
+  .signupInputHolder input[type='text']:focus,
+  .signupInputHolder input[type='email']:focus,
+  .signupInputHolder input[type='password']:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .signupButtonHolder button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signupButtonHolder button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
